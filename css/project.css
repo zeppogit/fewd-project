@@ -43,7 +43,9 @@ ul {
 	color: #3a9fce;
 	text-transform: uppercase;
 }
-
+.main-nav a:hover {
+	color: #4a0970;
+}
 
 /* ---- Layout Containers ---- */
 
