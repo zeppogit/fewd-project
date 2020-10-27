@@ -6,9 +6,9 @@
 	box-sizing: border-box;
 }
 body {
-	font-family: 'Varela Round', sans-serif;
+	font-family: 'Varela Round', Arial, sans-serif;
 	line-height: 1.6;
-	color: #3a3a3a;
+	color: #0f0e0e;
 	margin: 0;
 }
 ul {
@@ -18,7 +18,34 @@ ul {
 }
 
 
+/* ================================= 
+  Base Layout Styles
+==================================== */
 
+/* ---- Navigation ---- */
+
+.main-nav {
+	margin-top: 5px;
+}
+.name a,
+.main-nav a {
+	text-align: center;
+	display: block;
+	padding: 10px 15px;
+}
+.main-nav a {
+	font-size: .96em;
+	color: #3a9fce;
+	text-transform: uppercase;
+}
+
+
+/* ---- Layout Containers ---- */
+
+.main-header {
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
 
 /* ================================= 
   Media Queries
