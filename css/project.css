@@ -24,6 +24,11 @@ ul {
 
 /* ---- Navigation ---- */
 
+.name {
+	font-size: 1.35em;
+	margin: 0;
+}
+
 .main-nav {
 	margin-top: 5px;
 }
