@@ -44,7 +44,7 @@ ul {
 }
 .main-nav a {
 	font-size: .96em;
-	color: #3a9fce;
+	color: #0640ac;
 	text-transform: none;
 }
 .main-nav a:hover {
@@ -56,6 +56,21 @@ ul {
 .main-header {
 	padding-top: .5em;
 	padding-bottom: .5em;
+}
+
+.banner {
+	text-align: center;
+}
+
+.banner {
+	color: rgb(241, 36, 36);
+	background: rgb(252, 252, 100);
+	padding: 3.2em 0;
+	margin-bottom: 48px;
+}
+
+.headline {
+	margin-bottom: 0;
 }
 
 /* ================================= 
