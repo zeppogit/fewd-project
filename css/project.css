@@ -69,6 +69,18 @@ ul {
 	margin-bottom: 48px;
 }
 
+.logo {
+	width: 190px;
+}
+
+.logo-shape {
+    width: 190px;
+    height: 190px;
+    border-radius: 100%;
+ }
+
+ 
+}
 .headline {
 	margin-bottom: 0;
 }
