@@ -98,7 +98,7 @@ ul {
 }
 
 .flex-item {
-	height: 390px;
+	height: 410px;
 	width: 260px;
 	color: #000;
 	padding: 1px;
@@ -127,7 +127,12 @@ ul {
 
 .flex-item div img {
     margin: 0px auto;
-    display: block;
+	display: block;
+	width: 100%;
+	max-width: 260px;
+	max-height: 260px;
+	height: 100%;
+	object-fit: contain;
 }
 	
 /* ================================= 
