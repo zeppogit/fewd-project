@@ -86,10 +86,53 @@ ul {
 }
 
 /* ================================= 
+  Flex Box
+==================================== */
+.flex-container {
+	display: flex;
+	padding: 10px;
+	background: beige;
+	border-radius 5px;
+
+	flex-wrap: wrap;
+}
+
+.flex-item {
+	height: 390px;
+	width: 260px;
+	color: #000;
+	padding: 1px;
+	margin: 10px;
+	background: rgb(226, 226, 103)3, 133, 131);
+	border-radius: 6px;
+	border: 3px solid black;
+}
+
+.flex-item h2 {
+	text-align: center;
+	line-height: 1;
+	padding: 0px;
+	border: 1px dotted red;
+}
+.flex-item p {
+	text-align: center;
+	line-height: 1;
+	padding: 0px;
+	border: 1px dotted red;
+}
+
+.flex-item div {
+	border: 1px dotted red;
+}
+
+.flex-item div img {
+    margin: 0px auto;
+    display: block;
+}
+	
+/* ================================= 
   Media Queries
 ==================================== */
-
-
 
 @media (min-width: 769px) {
 
