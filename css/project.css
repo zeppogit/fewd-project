@@ -150,6 +150,20 @@ div .logo{
 	height: 100%;
 	object-fit: contain;
 }
+
+/* ================================= 
+  Keyframe
+==================================== */
+
+@keyframes spin{
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
 	
 /* ================================= 
   Media Queries
@@ -180,7 +194,6 @@ div .logo{
 
 @media (min-width: 1025px) {
 
-    
 	.main-header {
         flex-direction: row;
 		justify-content: space-between;
@@ -188,11 +201,3 @@ div .logo{
 
 }
 
-@keyframes spin{
-    from {
-        transform:rotate(0deg);
-    }
-    to {
-        transform:rotate(360deg);
-    }
-}
