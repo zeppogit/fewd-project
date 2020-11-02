@@ -193,6 +193,6 @@ div .logo{
         transform:rotate(0deg);
     }
     to {
-        transform:rotate(320deg);
+        transform:rotate(360deg);
     }
 }
