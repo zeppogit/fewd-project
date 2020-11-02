@@ -19,7 +19,6 @@ ul {
   list-style: none;
 }
 
-
 /* ================================= 
   Base Layout Styles
 ==================================== */
@@ -58,17 +57,34 @@ ul {
 	padding-bottom: .5em;
 }
 
-.banner {
+div .logo{
+
 	text-align: center;
 }
 
 .banner {
+	text-align: center;
 	color: rgb(241, 36, 36);
 	background: rgb(252, 252, 100);
 	padding: 3.2em 0;
 	margin-bottom: 48px;
 }
 
+.logo {
+	width: 190px;
+    height: 190px;
+    border-radius: 50%;
+	background-color: rgb(241, 252, 100); /* can delete */
+    animation-name: spin;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+   	background-image: url(../img/45rpm.jpg);
+   	background-size: contain;
+	background-position: center;
+}
+
+/*
 .logo {
 	width: 190px;
 }
@@ -78,8 +94,9 @@ ul {
     height: 190px;
     border-radius: 100%;
  }
+*/
 
- 
+
 }
 .headline {
 	margin-bottom: 0;
@@ -93,7 +110,6 @@ ul {
 	padding: 10px;
 	background: beige;
 	border-radius 5px;
-
 	flex-wrap: wrap;
 }
 
@@ -170,4 +186,13 @@ ul {
 		justify-content: space-between;
 	}
 
+}
+
+@keyframes spin{
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(320deg);
+    }
 }
