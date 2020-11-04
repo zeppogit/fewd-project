@@ -68,11 +68,13 @@ div .logo{
 	background: rgb(252, 252, 100);
 	padding: 3.2em 0;
 	margin-bottom: 48px;
+
 }
 
 .logo {
-	width: 190px;
-    height: 190px;
+	display: inline-block;
+	width: 160px;
+    height: 160px;
     border-radius: 50%;
 	background-color: rgb(241, 252, 100); /* can delete */
     animation-name: spin;
@@ -114,7 +116,7 @@ div .logo{
 }
 
 .flex-item {
-	height: 410px;
+	height: 430px;
 	width: 260px;
 	color: #000;
 	padding: 1px;
@@ -139,6 +141,7 @@ div .logo{
 
 .flex-item div {
 	border: 1px dotted red;
+	text-align: center;
 }
 
 .flex-item div img {
@@ -150,6 +153,14 @@ div .logo{
 	height: 100%;
 	object-fit: contain;
 }
+/* ATTEMPTED BUTTON STYLING 
+
+.flex-item div button {
+	text-align: center;
+	padding: 0px;
+    margin: 0px auto;
+}
+*/
 
 /* ================================= 
   Keyframe
