@@ -69,7 +69,7 @@ const hits = [
     label_img: 'i_bethere.jpg',
     title: "I'll Be There",
     artist: 'The Jackson 5',
-    recording: 'i_bethere'
+    recording: 'i_bethere.mp3'
     },
     {
     month: 'November',
@@ -103,7 +103,7 @@ for (let i = 0; i < 12; i++ ) {
          <p>${hit.title}</p>
          <p>by ${hit.artist}</p>
         <audio controls class="play">
-            <source src="mp3/${hit.recording}.mp3" type="audio/mp3">
+            <source src="mp3/${hit.recording}" type="audio/mp3">
         </audio> 
     </div> 
  `; 
