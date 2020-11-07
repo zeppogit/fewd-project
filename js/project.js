@@ -87,7 +87,7 @@ const hits = [
     }                                                                                                                
 ];
 
-const main = document.querySelector('#flex1'); 
+const calendar = document.querySelector('#flex1'); 
 
 let js_html = '';
 
@@ -102,11 +102,31 @@ for (let i = 0; i < 12; i++ ) {
         </div>
          <p>${hit.title}</p>
          <p>by ${hit.artist}</p>
-        <audio controls class="play">
-            <source src="mp3/${hit.recording}" type="audio/mp3">
-        </audio> 
+        <div class="play1">
+            <audio controls class="play2">
+                <source src="mp3/${hit.recording}" type="audio/mp3">
+            </audio> 
+        </div>
     </div> 
  `; 
 }
 
-main.innerHTML = js_html;
+calendar.innerHTML = js_html;
+
+//   PASSWORD CHECK  ///////////////////////
+
+/*
+
+const passwords = ['code2lou$', 'pw4codeLou', 'password1'];
+
+const search = prompt('Enter your password');
+let message;
+
+if (passwords.includes(search) ) {
+    message = "Welcome!";
+} else {
+    message = "Not a correct password";
+}
+
+document.querySelector('main').innerHTML = `<p>${message}<p>`;
+*/
