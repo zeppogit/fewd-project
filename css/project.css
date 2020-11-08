@@ -59,6 +59,7 @@ ul {
 }
 
 div .logo{
+
 	text-align: center;
 }
 
@@ -86,9 +87,9 @@ div .logo{
 }
 
 .year {
-	height: 75px;
+	height: 12rem;
 	background-image: url(../img/1970.jpg);
-	background-size: 40%;
+	background-size: contain;
 	background-position: center;
 	background-repeat: repeat-x;
 }
@@ -100,7 +101,6 @@ div .logo{
 }
 */
 
-}
 .headline {
 	margin-bottom: 0;
 }
@@ -160,7 +160,7 @@ div .logo{
 
 .play2 {
 	margin-bottom: 1px;
-	background-color: 96df96;
+	background-color: beige;
 	/*margin-left: 10px; */
 	width: 240px;
 	height: 15px;
