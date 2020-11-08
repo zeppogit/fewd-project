@@ -12,6 +12,7 @@ body {
 	color: #0f0e0e;
 	margin: 0;
 	font-size: .9rem;
+	/*background-color: #6bf05f; */
 }
 
 ul {
@@ -70,18 +71,20 @@ div .logo{
 	padding: 3.2em 0;
 	margin-bottom: 0px;
 }
-
+.logo:hover {
+    animation-name: spin;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
 .logo {
 	display: inline-block;
 	width: 160px;
     height: 160px;
     border-radius: 50%;
 	background-color: rgb(241, 252, 100); /* can delete */
-    animation-name: spin;
-    animation-duration: 500ms;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear; 
-   	background-image: url(../img/45rpm.jpg);
+
+   	background-image: url(../img/yellow45.jpg);
    	background-size: contain;
 	background-position: center;
 }
