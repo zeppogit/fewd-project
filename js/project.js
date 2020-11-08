@@ -115,18 +115,25 @@ calendar.innerHTML = js_html;
 
 //   PASSWORD CHECK  ///////////////////////
 
-/*
+
 
 const passwords = ['code2lou$', 'pw4codeLou', 'password1'];
-
-const search = prompt('Enter your password');
 let message;
+let test;
 
+do {
+    const search = prompt('Enter your password');
+    
 if (passwords.includes(search) ) {
     message = "Welcome!";
+    alert(message);
+    test=0;
 } else {
     message = "Not a correct password";
+    alert(message);
+    test=1;
 }
-
+} while (test);
+/*
 document.querySelector('main').innerHTML = `<p>${message}<p>`;
 */
