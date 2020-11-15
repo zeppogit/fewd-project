@@ -88,10 +88,12 @@ div .logo{
 
 .year {
 	height: 12rem;
-	background-image: url(../img/1970.jpg);
+	background-color: yellow;
+	background-image: url(../img/1970_sp.jpg);
 	background-size: contain;
 	background-position: center;
-	background-repeat: repeat-x;
+	background-repeat: repeat; 
+
 }
 
 
@@ -161,6 +163,7 @@ div .logo{
 	height: 15px;
 	/* border: 1px solid beige; */
 }
+
 
 
 /* ================================= 
