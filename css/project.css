@@ -12,7 +12,6 @@ body {
 	color: #0f0e0e;
 	margin: 0;
 	font-size: .9rem;
-	/*background-color: #6bf05f; */
 }
 
 ul {
@@ -82,8 +81,6 @@ div .logo{
 	width: 160px;
     height: 160px;
     border-radius: 50%;
-	background-color: rgb(241, 252, 100); /* can delete */
-
    	background-image: url(../img/yellow45.jpg);
    	background-size: contain;
 	background-position: center;
@@ -96,13 +93,8 @@ div .logo{
 	background-position: center;
 	background-repeat: repeat-x;
 }
-/*
-.year {
-	display: block;
-	font-size: 40pt;
-	color: black;
-}
-*/
+
+
 
 .headline {
 	margin-bottom: 0;
@@ -164,24 +156,12 @@ div .logo{
 .play2 {
 	margin-bottom: 1px;
 	background-color: beige;
-	/*margin-left: 10px; */
+	/* margin-left: 10px; */
 	width: 240px;
 	height: 15px;
 	/* border: 1px solid beige; */
 }
 
-
-/* ATTEMPTED BUTTON STYLING 
-
-.flex-item div button {
-	text-align: center;
-	padding: 0px;
-    margin: 0px auto;
-}
-button:nth-child(even) {
-	color:green;
-}
-*/
 
 /* ================================= 
   Keyframe
@@ -200,6 +180,9 @@ button:nth-child(even) {
 /* ================================= 
   Media Queries
 ==================================== */
+
+/*tablet*/
+
 
 @media (min-width: 769px) {
 
@@ -223,6 +206,7 @@ button:nth-child(even) {
 
 }
 
+/* desktop */
 
 @media (min-width: 1025px) {
 
