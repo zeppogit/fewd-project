@@ -20,11 +20,17 @@ ul {
   list-style: none;
 }
 
+footer {
+	padding: 20px 20px 20px;
+	text-align: left;
+	background-color: rgb(233, 233, 127);
+}
 
 .content {
 	padding: 20px 20px 0px;
 	text-align: left;
 }
+
 
 /* ================================= 
   Base Layout Styles
@@ -69,6 +75,7 @@ div .logo{
 
 	text-align: center;
 }
+
 
 .banner {
 	text-align: center;
