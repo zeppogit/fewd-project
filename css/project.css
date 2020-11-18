@@ -52,8 +52,9 @@ footer {
 .main-nav a {
 	text-align: center;
 	display: block;
-    padding: 10px 15px;
-    text-decoration: none;
+	padding: 10px 20px 15px;
+	text-decoration: none;
+	/*border: 10px solid red; */
 }
 .main-nav a {
 	font-size: .96em;

@@ -26,21 +26,6 @@ This project utilizes the follow technology.
 
 I believe at least 3 of the above will meet the project requirements.
 
-TO DO possibilities:
-
-* For readability,   "1970" image beneath banner ideally will be replaced with an image that has greater spacing between images when tiled, or will be tweeked if possible to add more yellow space between them.
-
-* Add a footer.
-
-* Create functionality to the "About" navigation item to either direct to a short paragraph above the footer, or make visible a previously hidden content via javascript.
-
-* General asthetic improvements in colors, fonts, spacing, etc.
-
-* New item in nav bar to allow user to search by month and navigate to that month.
-
-* Possibly add section at top of page that displays content from month 50 year's prior to current month (ie., November as the time of this README most recent edit) with a second column to the right that displays more info about the song, the artist, composer(s), etc.  Use javascript to update this content as calendar progresses, or as user selects another month.
-
-* Playlist creation.
 
 Thank you
 Rick Sweeney
