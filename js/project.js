@@ -1,5 +1,5 @@
 
-
+//  ARRAY OF JAVASCRIPT OBJECTS 
 
 const hits = [
     {
@@ -87,6 +87,8 @@ const hits = [
     }                                                                                                                
 ];
 
+// FOR LOOP TO INSERT HTML INTO MAIN CONTENT USING JAVASCRIPT OBJECT DATA
+
 const calendar = document.querySelector('#flex1'); 
 
 let js_html = '';
@@ -113,11 +115,11 @@ for (let i = 0; i < 12; i++ ) {
 
 calendar.innerHTML = js_html;
 
+
+
 //   PASSWORD CHECK  ///////////////////////
 
-
-
-const passwords = ['code2lou$', 'pw4codeLou', 'password1'];
+const passwords = ['code2lou$', 'pw4codeLou', 'password1']; /* declare acceptable passwords */
 let message;
 let test;
 
@@ -134,6 +136,3 @@ if (passwords.includes(search) ) {
     test=1;
 }
 } while (test);
-/*
-document.querySelector('main').innerHTML = `<p>${message}<p>`;
-*/

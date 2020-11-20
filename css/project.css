@@ -26,11 +26,6 @@ footer {
 	background-color: rgb(233, 233, 127);
 }
 
-.content {
-	padding: 20px 20px 0px;
-	text-align: left;
-}
-
 
 /* ================================= 
   Base Layout Styles
@@ -38,7 +33,7 @@ footer {
 
 /* ---- Navigation ---- */
 
-.name, .about {
+.pagename, .about {
 	font-size: 1.35em;
     margin: 0;
 	color: #4a0970;
@@ -48,14 +43,14 @@ footer {
 	margin-top: 5px;
 }
 
-.name,
+.pagename,
 .main-nav a {
 	text-align: center;
 	display: block;
 	padding: 10px 20px 15px;
 	text-decoration: none;
-	/*border: 10px solid red; */
 }
+
 .main-nav a {
 	font-size: .96em;
 	color: #0640ac;
@@ -72,25 +67,10 @@ footer {
 	padding-bottom: .5em;
 }
 
-div .logo{
-
+div .logo {
 	text-align: center;
 }
 
-
-.banner {
-	text-align: center;
-	color: rgb(241, 36, 36);
-	background: rgb(252, 252, 100);
-	padding: 3.2em 0;
-	margin-bottom: 0px;
-}
-.logo:hover {
-    animation-name: spin;
-    animation-duration: 500ms;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear; 
-}
 .logo {
 	display: inline-block;
 	width: 160px;
@@ -100,6 +80,24 @@ div .logo{
    	background-size: contain;
 	background-position: center;
 }
+.logo:hover {
+    animation-name: spin;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+
+.banner {
+	text-align: center;
+	color: rgb(241, 36, 36);
+	background: rgb(252, 252, 100);
+	padding: 3.2em 0;
+	margin-bottom: 0px;
+}
+.headline {
+	margin-bottom: 0;
+}
+
 
 .year {
 	height: 12rem;
@@ -107,14 +105,12 @@ div .logo{
 	background-image: url(../img/1970_sp.jpg);
 	background-size: contain;
 	background-position: center;
-	background-repeat: repeat; 
-
+	background-repeat: repeat;
 }
 
-
-
-.headline {
-	margin-bottom: 0;
+.foot {
+	padding: 20px 20px 0px;
+	text-align: left;
 }
 
 /* ================================= 
@@ -125,9 +121,8 @@ div .logo{
 	justify-content: center;
 	padding: 10px;
 	background: beige;
-	border-radius 5px;
+	border-radius: 5px;
 	flex-wrap: wrap;
-/*	margin-bottom: 25px; */
 }
 
 .flex-item {
@@ -145,17 +140,14 @@ div .logo{
 	text-align: center;
 	line-height: 1;
 	padding: 0px;
-/*	border: 1px dotted red; */
 }
 .flex-item p {
 	text-align: center;
 	line-height: 1;
 	padding: 0px;
-/*	border: 1px dotted red; */
 }
 
 .flex-item div {
-/*	border: 1px dotted red; */
 	text-align: center;
 }
 
@@ -173,10 +165,8 @@ div .logo{
 .play2 {
 	margin-bottom: 1px;
 	background-color: beige;
-	/* margin-left: 10px; */
 	width: 240px;
 	height: 15px;
-	/* border: 1px solid beige; */
 }
 
 
@@ -211,7 +201,6 @@ div .logo{
     max-width: 1150px;
 }
 
-
     .main-header,
 	.main-nav {
 		display: flex;
@@ -221,7 +210,6 @@ div .logo{
 		flex-direction: column;
 		align-items: center;
 	}
-
 }
 
 /* desktop */
